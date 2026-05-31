@@ -1,0 +1,16 @@
+pits = "0.1.0"
+description = "智能标书生成系统 - AI驱动的投标文件智能体平台"
+authors = [{ name = "oliver8358" }]
+readme = "README.md"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/oliver8358/Pits"
+Repository = "https://github.com/oliver8358/Pits.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]

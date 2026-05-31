@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+ENV/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+output/
+local_knowledge/
+data/vector_store/
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
